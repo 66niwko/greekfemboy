@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from sms import SendSms
+from api.sms import SendSms
 import threading
 import requests
 import os
